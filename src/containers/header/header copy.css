@@ -1,8 +1,7 @@
 .victory__header {
-    display: flex;
+    display: flex;    
     flex-direction: row;
 }
-
 .victory__header-content {
     flex: 1;
     display: flex;
@@ -21,7 +20,7 @@
     letter-spacing: -0.04em;
 }
 
-.victory__header-content p {
+.victory__header-content p{
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
@@ -34,7 +33,6 @@
 .victory__header-content__input {
     width: 100%;
     margin: 2rem 0 1rem;
-
     display: flex;
     flex-direction: row;
 }
@@ -52,12 +50,11 @@
     padding: 0 1rem;
     outline: none;
     color: #fff;
-
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
-.victory__header-content__input button {
+.victory__header-content__input button{
     flex: 0.6;
     width: 100%;
     min-height: 50px;
@@ -81,9 +78,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-direction: row;
-
     margin-top: 2rem;
+
 }
 
 .victory__header-content__people img {
@@ -113,35 +109,31 @@
     height: 100%;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1050px ) {
     .victory__header {
         flex-direction: column;
-    }
-
+    }    
     .victory__header-content {
         margin: 0 0 3rem;
     }
 }
 
-@media screen and (max-width: 650px) {
-    .victory__header-content h1 {
+@media screen and (max-width: 650px ) {
+    .victory__header h1 {
         font-size: 48px;
-        line-height: 60px;
-    }
-
-    .victory__header-content p {
+        line-height: 60px;        
+    }    
+    .victory__header-content p{
         font-size: 16px;
         line-height: 24px;
     }
-    
+
     .victory__header-content__people {
         flex-direction: column;
     }
-
     .victory__header-content__people p {
         margin: 0;
     }
-
     .victory__header-content__input input,
     .victory__header-content__input button {
         font-size: 16px;
@@ -149,20 +141,20 @@
     }
 }
 
-@media screen and (max-width: 490px) {
-    .victory__header-content h1 {
-        font-size: 36px;
-        line-height: 48px;
-    }
 
-    .victory__header-content p {
+@media screen and (max-width: 490px ) {
+    .victory__header h1 {
+        font-size: 36px;
+        line-height: 48px;        
+    }    
+    .victory__header-content p{
         font-size: 14px;
         line-height: 24px;
     }
-
     .victory__header-content__input input,
     .victory__header-content__input button {
         font-size: 12px;
         line-height: 16px;
     }
+
 }
